@@ -1,0 +1,25 @@
+﻿- Không thể tạo đối tượng với Interface
+- Interface gồm: Các biến và phương thức và phạm vi truy cập của
+	tất cả phải là public.
+	+ Các biến phải là: 
+		"public static final KieuDuLieu = GiaTri"
+		nếu được khai báo.
+	+ Các phương thức thì có 2 loại
+		++ Phương thức thường: có thân hàm, nhưng phải đi cùng:
+			static hoặc defauls, và đặc điểm của 2 cái này cũng khác 
+			nhau
+			Ví dụ: public static void Hello2(){Code}
+				-hàm trên chỉ sử dụng trong Interface của chính nó.
+			Ví dụ: public defauls void Hello3(){Code}
+				- hàm trên thì được sử dụng trong interface và ngoài 
+				class implements nó
+				- Hệ quả: Vì interface không thể tạo đối tượng được
+				vì thế có thể sử dụng trực tiếp hàm đó mà không 
+				thông qua biến tham chiếu.
+				Ví dụ: Hello3();
+					
+			*khi được implements thì không bắt buộc Override lại.
+		++ Phương thức đặc biệt: không có thân hàm
+			Ví dụ sương sương: public void Hello();
+			*Khi một class implements interface này thì phải
+			viết lại (Override) những phương thức đặc biệt này
