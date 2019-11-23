@@ -1,0 +1,72 @@
+﻿- Java là ngôn ngữ hướng đối tượng nên không thể dùng Java để  viết
+chương trình hướng chức năng ??!!
+
+
+- code của java được biên dịch sang bytecode và thông dịch > mã máy
+-Java không sử dụng con trỏ và các phép toán con trỏ
+- Java kiểm tra tất cả các truy cập đến mảng, chuỗi khi thực thi để
+đảm bảo rằng các truy nhập đó không ngoài giới hạn kích thước
+
+
+
+-Trong lập trình truyền thống, phải tự cấp phát bộ nhớ, và trước khi 
+chương trình kết thúc thì phải giải phóng và vấn đề sẽ nảy ra khi
+lập trình viên quên giải phóng bộ nhớ, mà trước đó đã xin cấp
+*Nhưng trong java quá trình cấp phát và giải phóng được thực hiện tự động
+nhờ dịch vụ thu nhặt những đối tượng không còn sử dụng nữa
+
+
+
+
+IIIII. Các kiểu ứng dụng Java
+1. Ứng dụng Applets
+	Applet là chương trình java tạo ra để sử dụng trên Internet thông qua trình
+	duyệt hỗ trợ Java như: IE hay Netscape. Apllet được nhúng bên trong trang
+	web, khi trang web hiện thị, Applet sẽ được tải về và thực thi tại trình
+	duyệt
+2. Ứng dụng dòng lệnh
+3. Ứng dụng đồ họa
+4. JSP/Servlet
+	Java thích hợp để phát triển ứng dụng nhiều lớp. Applet là chương trình
+	đồ họa chạy trên trình duyệt tại máy trạm.
+	ở Web: Máy trạm gửi yêu cầu tới máy chủ, máy chủ xử lý và gửi kết quả
+	về máy chạm
+	-Các Java API chạy trên máy chủ chịu trách nhiệm xử lý tại máy chủ và trả
+	lời yêu cầu của máy trạm. Các Java API chạy trên máy chủ này mở rộng
+	khả năng của các ứng dụng Java API chuẩn. Các ứng dụng trên máy chủ 
+	được gọi là các JSP/Servlet. Chúng dùng để xử lý dữ liệu, thực thi các giao
+	dịch và thường được thực thi thông qua máy chủ Web
+	...... rất nhiều nữa
+
+	Máy ảo trong Java
+	-mô phỏng máy tính thật nó có( hệ điều hành, phần cứng ) nhưng đều là ảo, nó 
+	có tập hợp các lệnh logic để xác định các hoạt động của máy tình
+	- Nó thiết lập các lớp trừu tượng cho: Phần cứng bên dưới, hệ điều hành, mã 
+	đã biên dịch
+	- TRÌNH BIÊN DỊCH chuyển mã nguốn thành tập hợp các lệnh của máy ảo mà không
+	phụ thuộc vào phần cứng và hệ điều hành cụ thể.
+	- TRÌNH THÔNG DỊCH trên mỗi máy sẽ chuyển tập lệnh thành chương trình thực
+	thi.
+	- Máy ảo tạo ra môi trường bên trong để thực thi các lệnh bằng cách
+		+ Nạp các file.class
+		+ Quản lý bộ nhớ
+		+ Dọn rác
+	- Vì có thể không nhất quán phần cứng nền máy ảo phải sử dụng ngăn xếp để lưu
+	trữ các thông tin sau:
+		+ Các "Frame" chứa các trạng thái của các phương thức
+		+ các toán hạng của mã bytecode
+		+ Các tham số truyền cho phương thức
+		+ Các biến cục bộ
+	- Khi JVM thực  thi mã, một thanh ghi cục bộ "PROGRAM COUNTER" được sử dụng
+	có tác dụng trỏ tới lệnh đang thực hiện. Khi cần thiết, có thể thay đổi nội dung
+	thanh ghi để đổi hướng thực thi của chương trình
+	- Trong trường hợp thông thường các lệnh được nối tiếp nhau thực hiện
+	- Khái Niêm - Trình biên dịch " Just In time- JUT": Các trình duyệt thông dụng như
+	Netscape hay IE đều có JIT bên trong để tăng tốc độ thực thi của chương trình
+	java. Mục đích của JIT là chuyển lệnh bytecode thành mã máy cụ thể cho từng loại
+	CPU, các lệnh này sẽ được lưu trữ và sử dụng mỗi khi được gọi đến.
+
+
+
+
+
