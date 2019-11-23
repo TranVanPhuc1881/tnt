@@ -1,0 +1,2 @@
+﻿	- Biến final chỉ có tác dụng trong một lớp, khi ra ngoài phạm vi
+	của lớp ta có thể tạo một biến final khác trùng tên với nó.
