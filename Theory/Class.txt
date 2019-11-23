@@ -1,0 +1,6 @@
+﻿- Khi xây dựng một lớp như thể bạn đang tạo ra một kiểu dữ liệu mới
+- Kiểu dữ liệu này là của đối tượng mà lớp đang hướng tới và sẽ được
+các tham chiếu của đối tượng chiếu đến và sử dụng, new là từ khóa để
+tạo ra các thực thể và các biến tham chiếu này sẽ trỏ đến các thực thể
+(Hay đối tượng thực này).
+- một lớp thì gồm các thuộc tính và các phương thức
