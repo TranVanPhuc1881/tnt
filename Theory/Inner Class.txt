@@ -1,0 +1,8 @@
+﻿- Không thể thừa kế một Inner class.
+- Các lớp bên ngoài "lớp chứa Inner class" không thể tạo biến tham chiếu đối 
+tượng với Inner Class, chỉ lớp chứa nó(Inner Class) mới có thể tạo tham chiếu đối
+tượng với Inner class mà nó chứa
+- Chúng ta sử dụng inner class để nhóm các lớp và các interface một cách logic 
+lại với nhau để giúp code dễ đọc và bảo trì hơn.
+- Inner Class có thể gọi các biến instance và hàm instance của Class chứa nó 
+mà không cần tạo biến tham chiếu kể cả biến instance private.
