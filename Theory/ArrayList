@@ -1,0 +1,6 @@
+-	add(): thêm vào 1 ô dữ liệu mới
+-	set(index, value): sử dụng khi đã có ô nhớ
+-	remove(index): xóa value ở vị trí index
+-	clear(): xóa bỏ tất cả phần tử trong ArrayList
+-	size(): trả về kích thước mảng
+-	get(index): trả về giá trị ở vị trí index
